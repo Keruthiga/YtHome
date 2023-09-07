@@ -1,5 +1,73 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* video */
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 250px);
+
+  margin-left: 200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 20px 5px;
+}
+
+.video-container a {
+  text-decoration: none;
+  color: #242424;
+}
+
+.video {
+  min-height: 250px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.title_1 {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.channel-name,
+.views {
+  font-size: 14px;
+  margin: 2px 0;
+  color: #979797;
 }
 
 .App-logo {

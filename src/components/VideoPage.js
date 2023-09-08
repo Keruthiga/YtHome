@@ -75,7 +75,7 @@ const VideoPage = () => {
   }
 
   return (
-    <div className="video">
+    <div style={{ background: "black" }} className="video">
       <div className="content">
         <iframe
           style={{ marginLeft: "250px", position: "absolute", bottom: "170px" }}

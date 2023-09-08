@@ -3,7 +3,12 @@ function Filter({ selectedFilter, setSelectedFilter }) {
   return (
     <div>
       <div
-        style={{ width: " 80%", position: "fixed", background: "none" }}
+        style={{
+          width: " 80%",
+          position: "fixed",
+          backgroundColor: "black",
+          height: "80px",
+        }}
         className="mt-4 ms-4 filters btn-group d-flex fs-6 "
       >
         <button

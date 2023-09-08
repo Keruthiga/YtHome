@@ -21,7 +21,7 @@ import { BiHistory } from "react-icons/bi";
 import { BiLike } from "react-icons/bi";
 
 function Newnavbar() {
-  const [isActive, setActive] = useState("false");
+  const [isActive, setActive] = useState("true");
 
   const handleToggle = () => {
     setActive(!isActive);
